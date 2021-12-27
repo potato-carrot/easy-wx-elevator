@@ -19,6 +19,10 @@ Component({
       type: Number,
       value: 3000,
     },
+    themeColor: {
+      type: String,
+      value: "#FF2A84"
+    }
   },
 
   data: {

@@ -9,6 +9,6 @@
 			{{item.label}}
 		</view>
 	</block>
-	<view class="slider" style="visibility:{{isShowSlider?'visible':'hidden'}};left:{{sliderLeftValue+'rpx'}};width:{{sliderWidth+'rpx'}}" />
+	<view class="slider" style="background:{{themeColor||'#FF2A84'}};visibility:{{isShowSlider?'visible':'hidden'}};left:{{sliderLeftValue+'rpx'}};width:{{sliderWidth+'rpx'}}" />
 </view>
 
