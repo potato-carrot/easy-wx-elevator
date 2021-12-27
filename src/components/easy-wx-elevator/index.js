@@ -6,6 +6,7 @@ Component({
     },
     defaultActiveKey: {
       type: Number,
+      value: 0,
       optionalTypes: [String],
       observer(newValue, _) {
         this.handleActiveTab(newValue);
@@ -17,7 +18,7 @@ Component({
     },
     timerKeepOn: {
       type: Number,
-      value: 2000,
+      value: 3000,
     },
     themeColor: {
       type: String,

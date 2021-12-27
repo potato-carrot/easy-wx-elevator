@@ -73,3 +73,16 @@ Page({
 ## 效果展示
 
 ![image](./screenshots/demo.gif)
+
+## 参数说明
+
+配置部分主要配置这么几个属性，分别是：
+
+| 参数             | 说明                         | 类型           | 默认值  | 是否必填 |
+| ---------------- | ---------------------------- | -------------- | ------- | -------- |
+| dataSource       | 组件渲染数据源               | Array          | []      | 否       |
+| defaultActiveKey | 默认选中电梯楼层             | Number\|String | 0       | no       |
+| needHide         | 页面不滚动时是否隐藏         | boolean        | false   | 否       |
+| timerKeepOn      | 从页面不滚动到隐藏的时间(ms) | Number         | 3000    | 否       |
+| themeColor       | 电梯组件主题色               | String         | #FF2A84 | 否       |
+| onClick          | 电梯组件点击事件             | Function       |         | 否       |
