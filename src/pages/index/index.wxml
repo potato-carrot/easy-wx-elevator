@@ -22,7 +22,7 @@
 		 dataSource="{{elevatorDataSource}}"
 		 defaultActiveKey="{{1}}"
 		 needHide="{{true}}"
-		 timerKeepOn="{{3000}}"
+		 timerKeepOn="{{2000}}"
 		 bind:onClick="handleClickElevator"
 		/>
 	</view>
