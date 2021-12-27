@@ -71,3 +71,5 @@ Page({
 ```
 
 ## 效果展示
+
+![image](./screenshots/demo.gif)
