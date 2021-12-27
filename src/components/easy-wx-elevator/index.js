@@ -17,7 +17,7 @@ Component({
     },
     timerKeepOn: {
       type: Number,
-      value: 2000,
+      value: 3000,
     },
   },
 
