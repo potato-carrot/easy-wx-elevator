@@ -1,0 +1,35 @@
+.page-match-detail .section,
+.page-match-detail .header {
+  display: flex;
+  flex-direction: column;
+  height: 600rpx;
+  background: yellow;
+  margin-bottom: 40rpx;
+}
+.page-match-detail .section .table-title,
+.page-match-detail .header .table-title {
+  width: 100%;
+  text-align: left;
+  font-size: 34rpx;
+  color: #2f2f2f;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  margin-bottom: 40rpx;
+}
+.page-match-detail .section .table-footer,
+.page-match-detail .header .table-footer {
+  background: transparent;
+  height: 20rpx;
+  margin-bottom: 35rpx;
+}
+.page-match-detail .header {
+  height: 300rpx;
+  background: pink;
+}
+.page-match-detail .elevator-wrap {
+  width: 100%;
+  position: fixed;
+  bottom: 60rpx;
+  display: flex;
+  justify-content: center;
+}

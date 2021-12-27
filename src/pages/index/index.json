@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "easy-wx-elevator": "../../../components/easy-wx-elevator"
+  }
+}

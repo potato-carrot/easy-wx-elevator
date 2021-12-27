@@ -1,0 +1,30 @@
+<view class="page-match-detail">
+	<view class="header">
+		<view class="title">头部</view>
+	</view>
+	<view id="section-index" class="section">
+		<view class="table-title">指数分析</view>
+	</view>
+	<view id="section-range" class="section">
+		<view class="table-title">积分排名</view>
+	</view>
+	<view id="section-against" class="section">
+		<view class="table-title">交锋战绩</view>
+	</view>
+	<view id="section-recent" class="section">
+		<view class="table-title">近期战绩</view>
+	</view>
+	<view id="section-schedule" class="section section-schedule">
+		<view class="table-title">未来赛事</view>
+	</view>
+	<view class="elevator-wrap">
+		<easy-wx-elevator
+		 dataSource="{{elevatorDataSource}}"
+		 defaultActiveKey="{{1}}"
+		 needHide="{{true}}"
+		 timerKeepOn="{{2000}}"
+		 bind:onClick="handleClickElevator"
+		/>
+	</view>
+</view>
+

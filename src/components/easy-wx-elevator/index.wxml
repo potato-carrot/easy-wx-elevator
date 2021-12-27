@@ -1,0 +1,14 @@
+<view class="component-easy-wx-elevator" wx:if="{{isShow}}">
+	<block wx:key="idx" wx:for="{{dataSource}}" wx:for-item="item">
+		<view
+		 id="easy-wx-elevator-{{item.key}}"
+		 data-item="{{item}}"
+		 class="elevator-item{{activeKey===item.key?' active':''}}}"
+		 bindtap="onClickTabItem"
+		>
+			{{item.label}}
+		</view>
+	</block>
+	<view class="slider" style="visibility:{{isShowSlider?'visible':'hidden'}};left:{{sliderLeftValue+'rpx'}};width:{{sliderWidth+'rpx'}}" />
+</view>
+

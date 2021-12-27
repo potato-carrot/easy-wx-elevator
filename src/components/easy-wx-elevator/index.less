@@ -1,0 +1,30 @@
+.component-easy-wx-elevator {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 60rpx;
+  border: 2rpx solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 30rpx;
+  line-height: 60rpx;
+  .elevator-item {
+    width: 95rpx;
+    font-family: PingFangSC-Medium;
+    font-size: 24rpx;
+    color: #777777;
+    font-weight: 500;
+    text-align: center;
+    z-index: 1;
+    &.active {
+      color: #fff;
+      transition: all 0.3s ease;
+    }
+  }
+  .slider {
+    position: absolute;
+    background: #8364ef;
+    border-radius: 30rpx;
+    height: 100%;
+    transition: left 0.3s ease;
+  }
+}
